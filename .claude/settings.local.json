@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 10 npx vite:*)",
+      "WebFetch(domain:documentation.tradier.com)",
+      "WebFetch(domain:docs.tradier.com)",
+      "WebSearch",
+      "Bash(timeout 8 npx vite:*)"
+    ]
+  }
+}
